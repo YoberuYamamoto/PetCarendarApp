@@ -14,6 +14,8 @@
 		A6817B682A46BB2600CB28AE /* PetCarendarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B672A46BB2600CB28AE /* PetCarendarAppTests.swift */; };
 		A6817B722A46BB2600CB28AE /* PetCarendarAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B712A46BB2600CB28AE /* PetCarendarAppUITests.swift */; };
 		A6817B742A46BB2600CB28AE /* PetCarendarAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B732A46BB2600CB28AE /* PetCarendarAppUITestsLaunchTests.swift */; };
+		A6817B812A46BB9C00CB28AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B802A46BB9C00CB28AE /* HomeView.swift */; };
+		A6817B832A46BBC300CB28AE /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B822A46BBC300CB28AE /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		A6817B6D2A46BB2600CB28AE /* PetCarendarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetCarendarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6817B712A46BB2600CB28AE /* PetCarendarAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCarendarAppUITests.swift; sourceTree = "<group>"; };
 		A6817B732A46BB2600CB28AE /* PetCarendarAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCarendarAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6817B802A46BB9C00CB28AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A6817B822A46BBC300CB28AE /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				A6817B562A46BB2500CB28AE /* PetCarendarAppApp.swift */,
 				A6817B582A46BB2500CB28AE /* ContentView.swift */,
+				A6817B822A46BBC300CB28AE /* HistoryView.swift */,
+				A6817B802A46BB9C00CB28AE /* HomeView.swift */,
 				A6817B5A2A46BB2500CB28AE /* Assets.xcassets */,
 				A6817B5C2A46BB2500CB28AE /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6817B812A46BB9C00CB28AE /* HomeView.swift in Sources */,
+				A6817B832A46BBC300CB28AE /* HistoryView.swift in Sources */,
 				A6817B592A46BB2500CB28AE /* ContentView.swift in Sources */,
 				A6817B572A46BB2500CB28AE /* PetCarendarAppApp.swift in Sources */,
 			);
