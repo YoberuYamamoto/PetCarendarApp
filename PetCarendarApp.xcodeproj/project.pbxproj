@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6817B572A46BB2500CB28AE /* PetCarendarAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B562A46BB2500CB28AE /* PetCarendarAppApp.swift */; };
+		A6817B592A46BB2500CB28AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B582A46BB2500CB28AE /* ContentView.swift */; };
+		A6817B5B2A46BB2500CB28AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6817B5A2A46BB2500CB28AE /* Assets.xcassets */; };
+		A6817B5E2A46BB2500CB28AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6817B5D2A46BB2500CB28AE /* Preview Assets.xcassets */; };
+		A6817B682A46BB2600CB28AE /* PetCarendarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B672A46BB2600CB28AE /* PetCarendarAppTests.swift */; };
+		A6817B722A46BB2600CB28AE /* PetCarendarAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B712A46BB2600CB28AE /* PetCarendarAppUITests.swift */; };
+		A6817B742A46BB2600CB28AE /* PetCarendarAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6817B732A46BB2600CB28AE /* PetCarendarAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6817B642A46BB2600CB28AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6817B4B2A46BB2500CB28AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6817B522A46BB2500CB28AE;
+			remoteInfo = PetCarendarApp;
+		};
+		A6817B6E2A46BB2600CB28AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6817B4B2A46BB2500CB28AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6817B522A46BB2500CB28AE;
+			remoteInfo = PetCarendarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6817B532A46BB2500CB28AE /* PetCarendarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetCarendarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6817B562A46BB2500CB28AE /* PetCarendarAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCarendarAppApp.swift; sourceTree = "<group>"; };
+		A6817B582A46BB2500CB28AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6817B5A2A46BB2500CB28AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6817B5D2A46BB2500CB28AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6817B632A46BB2600CB28AE /* PetCarendarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetCarendarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6817B672A46BB2600CB28AE /* PetCarendarAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCarendarAppTests.swift; sourceTree = "<group>"; };
+		A6817B6D2A46BB2600CB28AE /* PetCarendarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetCarendarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6817B712A46BB2600CB28AE /* PetCarendarAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCarendarAppUITests.swift; sourceTree = "<group>"; };
+		A6817B732A46BB2600CB28AE /* PetCarendarAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCarendarAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6817B502A46BB2500CB28AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6817B602A46BB2600CB28AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6817B6A2A46BB2600CB28AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6817B4A2A46BB2500CB28AE = {
+			isa = PBXGroup;
+			children = (
+				A6817B552A46BB2500CB28AE /* PetCarendarApp */,
+				A6817B662A46BB2600CB28AE /* PetCarendarAppTests */,
+				A6817B702A46BB2600CB28AE /* PetCarendarAppUITests */,
+				A6817B542A46BB2500CB28AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6817B542A46BB2500CB28AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6817B532A46BB2500CB28AE /* PetCarendarApp.app */,
+				A6817B632A46BB2600CB28AE /* PetCarendarAppTests.xctest */,
+				A6817B6D2A46BB2600CB28AE /* PetCarendarAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6817B552A46BB2500CB28AE /* PetCarendarApp */ = {
+			isa = PBXGroup;
+			children = (
+				A6817B562A46BB2500CB28AE /* PetCarendarAppApp.swift */,
+				A6817B582A46BB2500CB28AE /* ContentView.swift */,
+				A6817B5A2A46BB2500CB28AE /* Assets.xcassets */,
+				A6817B5C2A46BB2500CB28AE /* Preview Content */,
+			);
+			path = PetCarendarApp;
+			sourceTree = "<group>";
+		};
+		A6817B5C2A46BB2500CB28AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6817B5D2A46BB2500CB28AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6817B662A46BB2600CB28AE /* PetCarendarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6817B672A46BB2600CB28AE /* PetCarendarAppTests.swift */,
+			);
+			path = PetCarendarAppTests;
+			sourceTree = "<group>";
+		};
+		A6817B702A46BB2600CB28AE /* PetCarendarAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6817B712A46BB2600CB28AE /* PetCarendarAppUITests.swift */,
+				A6817B732A46BB2600CB28AE /* PetCarendarAppUITestsLaunchTests.swift */,
+			);
+			path = PetCarendarAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6817B522A46BB2500CB28AE /* PetCarendarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6817B772A46BB2600CB28AE /* Build configuration list for PBXNativeTarget "PetCarendarApp" */;
+			buildPhases = (
+				A6817B4F2A46BB2500CB28AE /* Sources */,
+				A6817B502A46BB2500CB28AE /* Frameworks */,
+				A6817B512A46BB2500CB28AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetCarendarApp;
+			productName = PetCarendarApp;
+			productReference = A6817B532A46BB2500CB28AE /* PetCarendarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6817B622A46BB2600CB28AE /* PetCarendarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6817B7A2A46BB2600CB28AE /* Build configuration list for PBXNativeTarget "PetCarendarAppTests" */;
+			buildPhases = (
+				A6817B5F2A46BB2600CB28AE /* Sources */,
+				A6817B602A46BB2600CB28AE /* Frameworks */,
+				A6817B612A46BB2600CB28AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6817B652A46BB2600CB28AE /* PBXTargetDependency */,
+			);
+			name = PetCarendarAppTests;
+			productName = PetCarendarAppTests;
+			productReference = A6817B632A46BB2600CB28AE /* PetCarendarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6817B6C2A46BB2600CB28AE /* PetCarendarAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6817B7D2A46BB2600CB28AE /* Build configuration list for PBXNativeTarget "PetCarendarAppUITests" */;
+			buildPhases = (
+				A6817B692A46BB2600CB28AE /* Sources */,
+				A6817B6A2A46BB2600CB28AE /* Frameworks */,
+				A6817B6B2A46BB2600CB28AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6817B6F2A46BB2600CB28AE /* PBXTargetDependency */,
+			);
+			name = PetCarendarAppUITests;
+			productName = PetCarendarAppUITests;
+			productReference = A6817B6D2A46BB2600CB28AE /* PetCarendarAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6817B4B2A46BB2500CB28AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A6817B522A46BB2500CB28AE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A6817B622A46BB2600CB28AE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A6817B522A46BB2500CB28AE;
+					};
+					A6817B6C2A46BB2600CB28AE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A6817B522A46BB2500CB28AE;
+					};
+				};
+			};
+			buildConfigurationList = A6817B4E2A46BB2500CB28AE /* Build configuration list for PBXProject "PetCarendarApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6817B4A2A46BB2500CB28AE;
+			productRefGroup = A6817B542A46BB2500CB28AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6817B522A46BB2500CB28AE /* PetCarendarApp */,
+				A6817B622A46BB2600CB28AE /* PetCarendarAppTests */,
+				A6817B6C2A46BB2600CB28AE /* PetCarendarAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6817B512A46BB2500CB28AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6817B5E2A46BB2500CB28AE /* Preview Assets.xcassets in Resources */,
+				A6817B5B2A46BB2500CB28AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6817B612A46BB2600CB28AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6817B6B2A46BB2600CB28AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6817B4F2A46BB2500CB28AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6817B592A46BB2500CB28AE /* ContentView.swift in Sources */,
+				A6817B572A46BB2500CB28AE /* PetCarendarAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6817B5F2A46BB2600CB28AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6817B682A46BB2600CB28AE /* PetCarendarAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6817B692A46BB2600CB28AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6817B742A46BB2600CB28AE /* PetCarendarAppUITestsLaunchTests.swift in Sources */,
+				A6817B722A46BB2600CB28AE /* PetCarendarAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6817B652A46BB2600CB28AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6817B522A46BB2500CB28AE /* PetCarendarApp */;
+			targetProxy = A6817B642A46BB2600CB28AE /* PBXContainerItemProxy */;
+		};
+		A6817B6F2A46BB2600CB28AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6817B522A46BB2500CB28AE /* PetCarendarApp */;
+			targetProxy = A6817B6E2A46BB2600CB28AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6817B752A46BB2600CB28AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6817B762A46BB2600CB28AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6817B782A46BB2600CB28AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetCarendarApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z44LHU49GV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yoberu1024.PetCarendarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6817B792A46BB2600CB28AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetCarendarApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z44LHU49GV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yoberu1024.PetCarendarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6817B7B2A46BB2600CB28AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z44LHU49GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yoberu1024.PetCarendarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetCarendarApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetCarendarApp";
+			};
+			name = Debug;
+		};
+		A6817B7C2A46BB2600CB28AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z44LHU49GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yoberu1024.PetCarendarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetCarendarApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetCarendarApp";
+			};
+			name = Release;
+		};
+		A6817B7E2A46BB2600CB28AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z44LHU49GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yoberu1024.PetCarendarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetCarendarApp;
+			};
+			name = Debug;
+		};
+		A6817B7F2A46BB2600CB28AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z44LHU49GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yoberu1024.PetCarendarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetCarendarApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6817B4E2A46BB2500CB28AE /* Build configuration list for PBXProject "PetCarendarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6817B752A46BB2600CB28AE /* Debug */,
+				A6817B762A46BB2600CB28AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6817B772A46BB2600CB28AE /* Build configuration list for PBXNativeTarget "PetCarendarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6817B782A46BB2600CB28AE /* Debug */,
+				A6817B792A46BB2600CB28AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6817B7A2A46BB2600CB28AE /* Build configuration list for PBXNativeTarget "PetCarendarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6817B7B2A46BB2600CB28AE /* Debug */,
+				A6817B7C2A46BB2600CB28AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6817B7D2A46BB2600CB28AE /* Build configuration list for PBXNativeTarget "PetCarendarAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6817B7E2A46BB2600CB28AE /* Debug */,
+				A6817B7F2A46BB2600CB28AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6817B4B2A46BB2500CB28AE /* Project object */;
+}
